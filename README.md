@@ -25,17 +25,17 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 
 | 类型 | 文件名 |
 |------|--------|
-| 安装版（推荐，支持应用内更新） | `DaimananGit_<版本>_x64-setup.exe` |
+| 安装版（推荐，支持应用内更新） | `DaimananGit-<版本>-windows-x64-setup.exe` |
 | 解压即用 | `DaimananGit-<版本>-windows-x64-portable.zip` |
 
 **Linux（x64）**
 
 | 类型 | 文件名 |
 |------|--------|
-| Debian / Ubuntu（推荐） | `DaimananGit_<版本>_amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<版本>-*.x86_64.rpm` |
+| Debian / Ubuntu（推荐） | `DaimananGit-<版本>-linux-amd64.deb` |
+| Fedora / openSUSE | `DaimananGit-<版本>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<版本>-linux-x86_64.pkg.tar.zst` |
-| AppImage（通用、免安装） | `DaimananGit_<版本>_amd64.AppImage` |
+| AppImage（通用、免安装） | `DaimananGit-<版本>-linux-amd64.AppImage` |
 | 解压即用 | `DaimananGit-<版本>-linux-x64-portable.tar.gz` |
 
 **macOS**
@@ -69,7 +69,7 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 
 ### 自动更新
 
-- **Windows 安装版**支持应用内检查更新（签名校验）。有新版本时按提示即可。
+- **Windows 安装版**支持应用内检查更新（签名校验）。有新版本时按提示即可。发布页上的 `latest.json` 是检查更新用的清单，不用手动下载。
 - **绿色版**、**Linux**、**macOS** 目前请到上面的 Releases 手动下载替换。
 - 更新失败时，可到 GitHub 或 Gitee 手动下载同一版本的安装包。
 
@@ -79,7 +79,7 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 |------|------|
 | 打不开仓库 / 提示找不到 git | 安装 Git，并确认终端里执行 `git --version` 有输出 |
 | Windows 白屏或无法启动 | 安装或修复 WebView2 运行时 |
-| Linux AppImage 无法运行 | `chmod +x DaimananGit_*.AppImage`，并安装 WebKitGTK 4.1 |
+| Linux AppImage 无法运行 | `chmod +x DaimananGit-*-linux-amd64.AppImage`，并安装 WebKitGTK 4.1 |
 | 想确认是否官方包 | 只从本页列出的 GitHub / Gitee 官方 Releases 下载；见 [LICENSE](./LICENSE) |
 
 <a id="zh-tw"></a>
@@ -103,17 +103,17 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 
 | 類型 | 檔名 |
 |------|------|
-| 安裝版（建議，支援應用內更新） | `DaimananGit_<版本>_x64-setup.exe` |
+| 安裝版（建議，支援應用內更新） | `DaimananGit-<版本>-windows-x64-setup.exe` |
 | 解壓即用 | `DaimananGit-<版本>-windows-x64-portable.zip` |
 
 **Linux（x64）**
 
 | 類型 | 檔名 |
 |------|------|
-| Debian / Ubuntu（建議） | `DaimananGit_<版本>_amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<版本>-*.x86_64.rpm` |
+| Debian / Ubuntu（建議） | `DaimananGit-<版本>-linux-amd64.deb` |
+| Fedora / openSUSE | `DaimananGit-<版本>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<版本>-linux-x86_64.pkg.tar.zst` |
-| AppImage（通用、免安裝） | `DaimananGit_<版本>_amd64.AppImage` |
+| AppImage（通用、免安裝） | `DaimananGit-<版本>-linux-amd64.AppImage` |
 | 解壓即用 | `DaimananGit-<版本>-linux-x64-portable.tar.gz` |
 
 **macOS**
@@ -147,7 +147,7 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 
 ### 自動更新
 
-- **Windows 安裝版**支援應用內檢查更新（簽名驗證）。有新版本時依提示操作即可。
+- **Windows 安裝版**支援應用內檢查更新（簽名驗證）。有新版本時依提示操作即可。發布頁上的 `latest.json` 是檢查更新用的清單，不用手動下載。
 - **免安裝版**、**Linux**、**macOS** 目前請到上方 Releases 手動下載替換。
 - 更新失敗時，可到 GitHub 或 Gitee 手動下載同一版本的安裝包。
 
@@ -157,7 +157,7 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 |------|------|
 | 打不開儲存庫 / 提示找不到 git | 安裝 Git，並確認終端機執行 `git --version` 有輸出 |
 | Windows 白畫面或無法啟動 | 安裝或修復 WebView2 執行階段 |
-| Linux AppImage 無法執行 | `chmod +x DaimananGit_*.AppImage`，並安裝 WebKitGTK 4.1 |
+| Linux AppImage 無法執行 | `chmod +x DaimananGit-*-linux-amd64.AppImage`，並安裝 WebKitGTK 4.1 |
 | 想確認是否為官方包 | 只從本頁列出的 GitHub / Gitee 官方 Releases 下載；見 [LICENSE](./LICENSE) |
 
 <a id="en"></a>
@@ -181,17 +181,17 @@ Open the latest release from either host and pick the file for your system. `<ve
 
 | Type | File name |
 |------|-----------|
-| Installer (recommended; in-app updates) | `DaimananGit_<version>_x64-setup.exe` |
+| Installer (recommended; in-app updates) | `DaimananGit-<version>-windows-x64-setup.exe` |
 | Portable | `DaimananGit-<version>-windows-x64-portable.zip` |
 
 **Linux (x64)**
 
 | Type | File name |
 |------|-----------|
-| Debian / Ubuntu (recommended) | `DaimananGit_<version>_amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<version>-*.x86_64.rpm` |
+| Debian / Ubuntu (recommended) | `DaimananGit-<version>-linux-amd64.deb` |
+| Fedora / openSUSE | `DaimananGit-<version>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<version>-linux-x86_64.pkg.tar.zst` |
-| AppImage (no install) | `DaimananGit_<version>_amd64.AppImage` |
+| AppImage (no install) | `DaimananGit-<version>-linux-amd64.AppImage` |
 | Portable | `DaimananGit-<version>-linux-x64-portable.tar.gz` |
 
 **macOS**
@@ -225,7 +225,7 @@ After the app opens, click the language name on the right side of the top bar. C
 
 ### Auto-update
 
-- The **Windows installer** can check for updates in-app (signature verified). Follow the prompts when a new version is available.
+- The **Windows installer** can check for updates in-app (signature verified). Follow the prompts when a new version is available. `latest.json` on the release page is the update manifest; you do not need to download it.
 - **Portable**, **Linux**, and **macOS** builds: download a newer package from Releases and replace manually for now.
 - If an update fails, download the same version’s installer from GitHub or Gitee.
 
@@ -235,7 +235,7 @@ After the app opens, click the language name on the right side of the top bar. C
 |-------|-------------|
 | Cannot open a repo / git not found | Install Git and confirm `git --version` works in a terminal |
 | Windows blank window or won’t start | Install or repair the WebView2 runtime |
-| Linux AppImage won’t run | `chmod +x DaimananGit_*.AppImage` and install WebKitGTK 4.1 |
+| Linux AppImage won’t run | `chmod +x DaimananGit-*-linux-amd64.AppImage` and install WebKitGTK 4.1 |
 | Is this an official build? | Download only from the GitHub / Gitee Releases linked above; see [LICENSE](./LICENSE) |
 
 <a id="ru"></a>
@@ -259,17 +259,17 @@ DaimananGit — настольный клиент Git. Он показывает
 
 | Тип | Имя файла |
 |-----|-----------|
-| Установщик (рекомендуется; обновления в приложении) | `DaimananGit_<версия>_x64-setup.exe` |
+| Установщик (рекомендуется; обновления в приложении) | `DaimananGit-<версия>-windows-x64-setup.exe` |
 | Портативная сборка | `DaimananGit-<версия>-windows-x64-portable.zip` |
 
 **Linux (x64)**
 
 | Тип | Имя файла |
 |-----|-----------|
-| Debian / Ubuntu (рекомендуется) | `DaimananGit_<версия>_amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<версия>-*.x86_64.rpm` |
+| Debian / Ubuntu (рекомендуется) | `DaimananGit-<версия>-linux-amd64.deb` |
+| Fedora / openSUSE | `DaimananGit-<версия>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<версия>-linux-x86_64.pkg.tar.zst` |
-| AppImage (без установки) | `DaimananGit_<версия>_amd64.AppImage` |
+| AppImage (без установки) | `DaimananGit-<версия>-linux-amd64.AppImage` |
 | Портативная сборка | `DaimananGit-<версия>-linux-x64-portable.tar.gz` |
 
 **macOS**
@@ -303,7 +303,7 @@ DaimananGit — настольный клиент Git. Он показывает
 
 ### Автообновление
 
-- **Установщик Windows** может проверять обновления в приложении (с проверкой подписи). Следуйте подсказкам при новой версии.
+- **Установщик Windows** может проверять обновления в приложении (с проверкой подписи). Следуйте подсказкам при новой версии. `latest.json` на странице релиза — это манифест обновления, скачивать его вручную не нужно.
 - **Портативные**, **Linux** и **macOS** сборки: пока скачивайте новый пакет из Releases вручную.
 - Если обновление не удалось — скачайте тот же установщик с GitHub или Gitee.
 
@@ -313,7 +313,7 @@ DaimananGit — настольный клиент Git. Он показывает
 |----------|-------------|
 | Не открывается репозиторий / нет git | Установите Git и проверьте `git --version` в терминале |
 | Белый экран или не запускается в Windows | Установите или восстановите WebView2 |
-| AppImage в Linux не запускается | `chmod +x DaimananGit_*.AppImage` и установите WebKitGTK 4.1 |
+| AppImage в Linux не запускается | `chmod +x DaimananGit-*-linux-amd64.AppImage` и установите WebKitGTK 4.1 |
 | Это официальная сборка? | Скачивайте только с указанных GitHub / Gitee Releases; см. [LICENSE](./LICENSE) |
 
 <a id="ko"></a>
@@ -337,17 +337,17 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 
 | 종류 | 파일 이름 |
 |------|-----------|
-| 설치판 (권장, 앱 내 업데이트) | `DaimananGit_<버전>_x64-setup.exe` |
+| 설치판 (권장, 앱 내 업데이트) | `DaimananGit-<버전>-windows-x64-setup.exe` |
 | 압축 풀기 판 | `DaimananGit-<버전>-windows-x64-portable.zip` |
 
 **Linux (x64)**
 
 | 종류 | 파일 이름 |
 |------|-----------|
-| Debian / Ubuntu (권장) | `DaimananGit_<버전>_amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<버전>-*.x86_64.rpm` |
+| Debian / Ubuntu (권장) | `DaimananGit-<버전>-linux-amd64.deb` |
+| Fedora / openSUSE | `DaimananGit-<버전>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<버전>-linux-x86_64.pkg.tar.zst` |
-| AppImage (설치 없음) | `DaimananGit_<버전>_amd64.AppImage` |
+| AppImage (설치 없음) | `DaimananGit-<버전>-linux-amd64.AppImage` |
 | 압축 풀기 판 | `DaimananGit-<버전>-linux-x64-portable.tar.gz` |
 
 **macOS**
@@ -381,7 +381,7 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 
 ### 자동 업데이트
 
-- **Windows 설치판**은 앱에서 업데이트를 확인할 수 있습니다(서명 검증). 새 버전이 있으면 안내를 따르세요.
+- **Windows 설치판**은 앱에서 업데이트를 확인할 수 있습니다(서명 검증). 새 버전이 있으면 안내를 따르세요. 릴리스의 `latest.json`은 업데이트 확인용 목록이므로 직접 받을 필요가 없습니다.
 - **압축 풀기 판**, **Linux**, **macOS**는 당분간 Releases에서 수동으로 받아 교체하세요.
 - 업데이트에 실패하면 GitHub 또는 Gitee에서 같은 버전 설치 파일을 받으세요.
 
@@ -391,7 +391,7 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 |------|------|
 | 저장소를 열 수 없음 / git 없음 | Git을 설치하고 터미널에서 `git --version`을 확인하세요 |
 | Windows에서 흰 화면이거나 실행 안 됨 | WebView2 런타임을 설치하거나 복구하세요 |
-| Linux AppImage가 실행되지 않음 | `chmod +x DaimananGit_*.AppImage` 후 WebKitGTK 4.1을 설치하세요 |
+| Linux AppImage가 실행되지 않음 | `chmod +x DaimananGit-*-linux-amd64.AppImage` 후 WebKitGTK 4.1을 설치하세요 |
 | 공식 패키지인지 확인 | 위에 링크된 GitHub / Gitee Releases에서만 받으세요. [LICENSE](./LICENSE) 참고 |
 
 <a id="ja"></a>
@@ -415,17 +415,17 @@ DaimananGit はデスクトップの Git クライアントです。ブランチ
 
 | 種類 | ファイル名 |
 |------|------------|
-| インストーラー（推奨・アプリ内更新対応） | `DaimananGit_<バージョン>_x64-setup.exe` |
+| インストーラー（推奨・アプリ内更新対応） | `DaimananGit-<バージョン>-windows-x64-setup.exe` |
 | 展開してすぐ使う | `DaimananGit-<バージョン>-windows-x64-portable.zip` |
 
 **Linux（x64）**
 
 | 種類 | ファイル名 |
 |------|------------|
-| Debian / Ubuntu（推奨） | `DaimananGit_<バージョン>_amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<バージョン>-*.x86_64.rpm` |
+| Debian / Ubuntu（推奨） | `DaimananGit-<バージョン>-linux-amd64.deb` |
+| Fedora / openSUSE | `DaimananGit-<バージョン>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<バージョン>-linux-x86_64.pkg.tar.zst` |
-| AppImage（インストール不要） | `DaimananGit_<バージョン>_amd64.AppImage` |
+| AppImage（インストール不要） | `DaimananGit-<バージョン>-linux-amd64.AppImage` |
 | 展開してすぐ使う | `DaimananGit-<バージョン>-linux-x64-portable.tar.gz` |
 
 **macOS**
@@ -459,7 +459,7 @@ DaimananGit はデスクトップの Git クライアントです。ブランチ
 
 ### 自動更新
 
-- **Windows インストーラー版**はアプリ内で更新を確認できます（署名検証あり）。新しいバージョンがあれば案内に従ってください。
+- **Windows インストーラー版**はアプリ内で更新を確認できます（署名検証あり）。新しいバージョンがあれば案内に従ってください。リリースページの `latest.json` は更新確認用の一覧なので、手動でダウンロードする必要はありません。
 - **展開版**、**Linux**、**macOS** は当面 Releases から手動で入手して置き換えてください。
 - 更新に失敗した場合は、GitHub または Gitee から同じバージョンのインストーラーを入手してください。
 
@@ -469,7 +469,7 @@ DaimananGit はデスクトップの Git クライアントです。ブランチ
 |------|------|
 | リポジトリが開けない / git がない | Git を入れ、ターミナルで `git --version` を確認 |
 | Windows で白画面・起動しない | WebView2 ランタイムを入れるか修復 |
-| Linux の AppImage が動かない | `chmod +x DaimananGit_*.AppImage` のうえ WebKitGTK 4.1 を入れる |
+| Linux の AppImage が動かない | `chmod +x DaimananGit-*-linux-amd64.AppImage` のうえ WebKitGTK 4.1 を入れる |
 | 公式パッケージかどうか | 上記の GitHub / Gitee Releases からのみ入手。[LICENSE](./LICENSE) も参照 |
 
 ---
