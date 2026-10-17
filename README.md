@@ -34,7 +34,7 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 
 ### 下载
 
-任选一处打开最新发布，按你的系统点对应文件。`<版本>` 是发布号，例如 `0.8.2`。文件名请保持英文，按后缀选择。
+任选一处打开最新发布，按你的系统点对应文件。`<版本>` 是发布号，例如 `0.8.3`。文件名请保持英文，按后缀选择。
 
 - [GitHub Releases](https://github.com/daimanan/DaimananGit/releases/latest)（国际）
 - [Gitee Releases](https://gitee.com/daimanan/daimanangit/releases)（国内镜像，同一套安装包）
@@ -110,7 +110,7 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 
 ### 下載
 
-任選一處開啟最新發布，依你的系統點選對應檔案。`<版本>` 是發布號，例如 `0.8.2`。檔名請保持英文，依副檔名選擇。
+任選一處開啟最新發布，依你的系統點選對應檔案。`<版本>` 是發布號，例如 `0.8.3`。檔名請保持英文，依副檔名選擇。
 
 - [GitHub Releases](https://github.com/daimanan/DaimananGit/releases/latest)（國際）
 - [Gitee Releases](https://gitee.com/daimanan/daimanangit/releases)（國內鏡像，同一套安裝包）
@@ -186,7 +186,7 @@ DaimananGit is a desktop Git client. It helps you see branches and commits clear
 
 ### Download
 
-Open the latest release from either host and pick the file for your system. `<version>` is the release number, for example `0.8.2`. Keep the English file names and match the suffix.
+Open the latest release from either host and pick the file for your system. `<version>` is the release number, for example `0.8.3`. Keep the English file names and match the suffix.
 
 - [GitHub Releases](https://github.com/daimanan/DaimananGit/releases/latest) (global)
 - [Gitee Releases](https://gitee.com/daimanan/daimanangit/releases) (China mirror, same packages)
@@ -262,7 +262,7 @@ DaimananGit — настольный клиент Git. Он показывает
 
 ### Скачать
 
-Откройте последний выпуск на любом из сайтов и выберите файл для своей системы. `<версия>` — номер выпуска, например `0.8.2`. Имена файлов оставляйте на английском и сверяйте окончание.
+Откройте последний выпуск на любом из сайтов и выберите файл для своей системы. `<версия>` — номер выпуска, например `0.8.3`. Имена файлов оставляйте на английском и сверяйте окончание.
 
 - [GitHub Releases](https://github.com/daimanan/DaimananGit/releases/latest) (международный)
 - [Gitee Releases](https://gitee.com/daimanan/daimanangit/releases) (зеркало в Китае, те же пакеты)
@@ -338,7 +338,7 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 
 ### 다운로드
 
-아래 중 한곳에서 최신 릴리스를 열고 시스템에 맞는 파일을 고르세요. `<버전>`은 릴리스 번호입니다. 예: `0.8.2`. 파일 이름은 영어 그대로 두고, 끝부분으로 맞는 꾸러미를 고르세요.
+아래 중 한곳에서 최신 릴리스를 열고 시스템에 맞는 파일을 고르세요. `<버전>`은 릴리스 번호입니다. 예: `0.8.3`. 파일 이름은 영어 그대로 두고, 끝부분으로 맞는 꾸러미를 고르세요.
 
 - [GitHub Releases](https://github.com/daimanan/DaimananGit/releases/latest) (해외)
 - [Gitee Releases](https://gitee.com/daimanan/daimanangit/releases) (국내 미러, 동일 패키지)
@@ -414,7 +414,7 @@ DaimananGit はデスクトップの Git クライアントです。ブランチ
 
 ### ダウンロード
 
-どちらかの最新リリースを開き、お使いのシステムに合うファイルを選んでください。`<バージョン>` はリリース番号です。例: `0.8.2`。ファイル名は英語のまま、末尾で種類を見分けてください。
+どちらかの最新リリースを開き、お使いのシステムに合うファイルを選んでください。`<バージョン>` はリリース番号です。例: `0.8.3`。ファイル名は英語のまま、末尾で種類を見分けてください。
 
 - [GitHub Releases](https://github.com/daimanan/DaimananGit/releases/latest)（海外）
 - [Gitee Releases](https://gitee.com/daimanan/daimanangit/releases)（中国ミラー、同じパッケージ）
