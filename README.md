@@ -32,17 +32,17 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 
 | 类型 | 文件名 |
 |------|--------|
-| Debian / Ubuntu（推荐） | `DaimananGit-<版本>-linux-amd64.deb` |
-| Fedora / openSUSE | `DaimananGit-<版本>-linux-x86_64.rpm` |
+| Debian / Ubuntu（推荐，支持应用内更新） | `DaimananGit-<版本>-linux-amd64.deb` |
+| Fedora / openSUSE（支持应用内更新） | `DaimananGit-<版本>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<版本>-linux-x86_64.pkg.tar.zst` |
-| AppImage（通用、免安装） | `DaimananGit-<版本>-linux-amd64.AppImage` |
+| AppImage（通用、免安装，支持应用内更新） | `DaimananGit-<版本>-linux-amd64.AppImage` |
 | 解压即用 | `DaimananGit-<版本>-linux-x64-portable.tar.gz` |
 
 **macOS**
 
 | 类型 | 文件名 |
 |------|--------|
-| 安装映像 | `DaimananGit_<版本>_*.dmg`（`aarch64` 或 `x64`，按芯片选择） |
+| 安装映像（支持应用内更新） | `DaimananGit_<版本>_*.dmg`（`aarch64` 或 `x64`，按芯片选择） |
 | 解压即用 | `DaimananGit-<版本>-macos-aarch64-portable.zip` 或 `…-macos-x64-portable.zip` |
 
 ### 装好之后
@@ -69,8 +69,8 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 
 ### 自动更新
 
-- **Windows 安装版**支持应用内检查更新（签名校验）。有新版本时按提示即可。发布页上的 `latest.json` 是检查更新用的清单，不用手动下载。
-- **绿色版**、**Linux**、**macOS** 目前请到上面的 Releases 手动下载替换。
+- **Windows 安装版**、**Linux deb / rpm / AppImage**、**macOS 安装版**支持应用内检查更新（签名校验）。有新版本时按提示即可。发布页上的 `latest.json` 是检查更新用的清单，不用手动下载。
+- **绿色版**与 **Arch 包**请到上面的 Releases 手动下载替换。
 - 更新失败时，可到 GitHub 或 Gitee 手动下载同一版本的安装包。
 
 ### 常见问题
@@ -110,17 +110,17 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 
 | 類型 | 檔名 |
 |------|------|
-| Debian / Ubuntu（建議） | `DaimananGit-<版本>-linux-amd64.deb` |
+| Debian / Ubuntu（建議，支援應用內更新） | `DaimananGit-<版本>-linux-amd64.deb` |
 | Fedora / openSUSE | `DaimananGit-<版本>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<版本>-linux-x86_64.pkg.tar.zst` |
-| AppImage（通用、免安裝） | `DaimananGit-<版本>-linux-amd64.AppImage` |
+| AppImage（通用、免安裝，支援應用內更新） | `DaimananGit-<版本>-linux-amd64.AppImage` |
 | 解壓即用 | `DaimananGit-<版本>-linux-x64-portable.tar.gz` |
 
 **macOS**
 
 | 類型 | 檔名 |
 |------|------|
-| 安裝映像 | `DaimananGit_<版本>_*.dmg`（`aarch64` 或 `x64`，依晶片選擇） |
+| 安裝映像（支援應用內更新） | `DaimananGit_<版本>_*.dmg`（`aarch64` 或 `x64`，依晶片選擇） |
 | 解壓即用 | `DaimananGit-<版本>-macos-aarch64-portable.zip` 或 `…-macos-x64-portable.zip` |
 
 ### 裝好之後
@@ -147,8 +147,8 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 
 ### 自動更新
 
-- **Windows 安裝版**支援應用內檢查更新（簽名驗證）。有新版本時依提示操作即可。發布頁上的 `latest.json` 是檢查更新用的清單，不用手動下載。
-- **免安裝版**、**Linux**、**macOS** 目前請到上方 Releases 手動下載替換。
+- **Windows 安裝版**、**Linux deb / rpm / AppImage**、**macOS 安裝版**支援應用內檢查更新（簽名驗證）。有新版本時依提示操作即可。發布頁上的 `latest.json` 是檢查更新用的清單，不用手動下載。
+- **免安裝版**與 **Arch 包**請到上方 Releases 手動下載替換。
 - 更新失敗時，可到 GitHub 或 Gitee 手動下載同一版本的安裝包。
 
 ### 常見問題
@@ -188,17 +188,17 @@ Open the latest release from either host and pick the file for your system. `<ve
 
 | Type | File name |
 |------|-----------|
-| Debian / Ubuntu (recommended) | `DaimananGit-<version>-linux-amd64.deb` |
+| Debian / Ubuntu (recommended; in-app updates) | `DaimananGit-<version>-linux-amd64.deb` |
 | Fedora / openSUSE | `DaimananGit-<version>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<version>-linux-x86_64.pkg.tar.zst` |
-| AppImage (no install) | `DaimananGit-<version>-linux-amd64.AppImage` |
+| AppImage (no install; in-app updates) | `DaimananGit-<version>-linux-amd64.AppImage` |
 | Portable | `DaimananGit-<version>-linux-x64-portable.tar.gz` |
 
 **macOS**
 
 | Type | File name |
 |------|-----------|
-| Disk image | `DaimananGit_<version>_*.dmg` (`aarch64` or `x64`, match your chip) |
+| Disk image (in-app updates) | `DaimananGit_<version>_*.dmg` (`aarch64` or `x64`, match your chip) |
 | Portable | `DaimananGit-<version>-macos-aarch64-portable.zip` or `…-macos-x64-portable.zip` |
 
 ### After you install
@@ -225,8 +225,8 @@ After the app opens, click the language name on the right side of the top bar. C
 
 ### Auto-update
 
-- The **Windows installer** can check for updates in-app (signature verified). Follow the prompts when a new version is available. `latest.json` on the release page is the update manifest; you do not need to download it.
-- **Portable**, **Linux**, and **macOS** builds: download a newer package from Releases and replace manually for now.
+- The **Windows installer**, **Linux deb / rpm / AppImage**, and **macOS installer** can check for updates in-app (signature verified). Follow the prompts when a new version is available. `latest.json` on the release page is the update manifest; you do not need to download it.
+- **Portable** builds and the **Arch** package: download from Releases and replace manually.
 - If an update fails, download the same version’s installer from GitHub or Gitee.
 
 ### FAQ
@@ -266,17 +266,17 @@ DaimananGit — настольный клиент Git. Он показывает
 
 | Тип | Имя файла |
 |-----|-----------|
-| Debian / Ubuntu (рекомендуется) | `DaimananGit-<версия>-linux-amd64.deb` |
+| Debian / Ubuntu (рекомендуется; обновления в приложении) | `DaimananGit-<версия>-linux-amd64.deb` |
 | Fedora / openSUSE | `DaimananGit-<версия>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<версия>-linux-x86_64.pkg.tar.zst` |
-| AppImage (без установки) | `DaimananGit-<версия>-linux-amd64.AppImage` |
+| AppImage (без установки; обновления в приложении) | `DaimananGit-<версия>-linux-amd64.AppImage` |
 | Портативная сборка | `DaimananGit-<версия>-linux-x64-portable.tar.gz` |
 
 **macOS**
 
 | Тип | Имя файла |
 |-----|-----------|
-| Образ диска | `DaimananGit_<версия>_*.dmg` (`aarch64` или `x64`, по чипу) |
+| Образ диска (обновления в приложении) | `DaimananGit_<версия>_*.dmg` (`aarch64` или `x64`, по чипу) |
 | Портативная сборка | `DaimananGit-<версия>-macos-aarch64-portable.zip` или `…-macos-x64-portable.zip` |
 
 ### После установки
@@ -303,8 +303,8 @@ DaimananGit — настольный клиент Git. Он показывает
 
 ### Автообновление
 
-- **Установщик Windows** может проверять обновления в приложении (с проверкой подписи). Следуйте подсказкам при новой версии. `latest.json` на странице релиза — это манифест обновления, скачивать его вручную не нужно.
-- **Портативные**, **Linux** и **macOS** сборки: пока скачивайте новый пакет из Releases вручную.
+- **Установщик Windows**, **Linux deb / rpm / AppImage** и **установщик macOS** могут проверять обновления в приложении (с проверкой подписи). Следуйте подсказкам при новой версии. `latest.json` на странице релиза — это манифест обновления, скачивать его вручную не нужно.
+- **Портативные** сборки и пакет **Arch**: скачивайте из Releases и заменяйте вручную.
 - Если обновление не удалось — скачайте тот же установщик с GitHub или Gitee.
 
 ### Частые вопросы
@@ -344,17 +344,17 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 
 | 종류 | 파일 이름 |
 |------|-----------|
-| Debian / Ubuntu (권장) | `DaimananGit-<버전>-linux-amd64.deb` |
+| Debian / Ubuntu (권장, 앱 내 업데이트) | `DaimananGit-<버전>-linux-amd64.deb` |
 | Fedora / openSUSE | `DaimananGit-<버전>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<버전>-linux-x86_64.pkg.tar.zst` |
-| AppImage (설치 없음) | `DaimananGit-<버전>-linux-amd64.AppImage` |
+| AppImage (설치 없음, 앱 내 업데이트) | `DaimananGit-<버전>-linux-amd64.AppImage` |
 | 압축 풀기 판 | `DaimananGit-<버전>-linux-x64-portable.tar.gz` |
 
 **macOS**
 
 | 종류 | 파일 이름 |
 |------|-----------|
-| 디스크 이미지 | `DaimananGit_<버전>_*.dmg` (`aarch64` 또는 `x64`, 칩에 맞게) |
+| 디스크 이미지 (앱 내 업데이트) | `DaimananGit_<버전>_*.dmg` (`aarch64` 또는 `x64`, 칩에 맞게) |
 | 압축 풀기 판 | `DaimananGit-<버전>-macos-aarch64-portable.zip` 또는 `…-macos-x64-portable.zip` |
 
 ### 설치한 다음
@@ -381,8 +381,8 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 
 ### 자동 업데이트
 
-- **Windows 설치판**은 앱에서 업데이트를 확인할 수 있습니다(서명 검증). 새 버전이 있으면 안내를 따르세요. 릴리스의 `latest.json`은 업데이트 확인용 목록이므로 직접 받을 필요가 없습니다.
-- **압축 풀기 판**, **Linux**, **macOS**는 당분간 Releases에서 수동으로 받아 교체하세요.
+- **Windows 설치판**, **Linux deb / rpm / AppImage**, **macOS 설치판**은 앱에서 업데이트를 확인할 수 있습니다(서명 검증). 새 버전이 있으면 안내를 따르세요. 릴리스의 `latest.json`은 업데이트 확인용 목록이므로 직접 받을 필요가 없습니다.
+- **압축 풀기 판**과 **Arch** 패키지는 Releases에서 수동으로 받아 교체하세요.
 - 업데이트에 실패하면 GitHub 또는 Gitee에서 같은 버전 설치 파일을 받으세요.
 
 ### 자주 묻는 질문
@@ -422,17 +422,17 @@ DaimananGit はデスクトップの Git クライアントです。ブランチ
 
 | 種類 | ファイル名 |
 |------|------------|
-| Debian / Ubuntu（推奨） | `DaimananGit-<バージョン>-linux-amd64.deb` |
+| Debian / Ubuntu（推奨・アプリ内更新対応） | `DaimananGit-<バージョン>-linux-amd64.deb` |
 | Fedora / openSUSE | `DaimananGit-<バージョン>-linux-x86_64.rpm` |
 | Arch / Manjaro | `DaimananGit-<バージョン>-linux-x86_64.pkg.tar.zst` |
-| AppImage（インストール不要） | `DaimananGit-<バージョン>-linux-amd64.AppImage` |
+| AppImage（インストール不要・アプリ内更新対応） | `DaimananGit-<バージョン>-linux-amd64.AppImage` |
 | 展開してすぐ使う | `DaimananGit-<バージョン>-linux-x64-portable.tar.gz` |
 
 **macOS**
 
 | 種類 | ファイル名 |
 |------|------------|
-| ディスクイメージ | `DaimananGit_<バージョン>_*.dmg`（`aarch64` または `x64`、チップに合わせて） |
+| ディスクイメージ（アプリ内更新対応） | `DaimananGit_<バージョン>_*.dmg`（`aarch64` または `x64`、チップに合わせて） |
 | 展開してすぐ使う | `DaimananGit-<バージョン>-macos-aarch64-portable.zip` または `…-macos-x64-portable.zip` |
 
 ### 入手したあと
@@ -459,8 +459,8 @@ DaimananGit はデスクトップの Git クライアントです。ブランチ
 
 ### 自動更新
 
-- **Windows インストーラー版**はアプリ内で更新を確認できます（署名検証あり）。新しいバージョンがあれば案内に従ってください。リリースページの `latest.json` は更新確認用の一覧なので、手動でダウンロードする必要はありません。
-- **展開版**、**Linux**、**macOS** は当面 Releases から手動で入手して置き換えてください。
+- **Windows インストーラー版**、**Linux deb / rpm / AppImage**、**macOS インストーラー版**はアプリ内で更新を確認できます（署名検証あり）。新しいバージョンがあれば案内に従ってください。リリースページの `latest.json` は更新確認用の一覧なので、手動でダウンロードする必要はありません。
+- **展開版**と **Arch** パッケージは Releases から手動で入手して置き換えてください。
 - 更新に失敗した場合は、GitHub または Gitee から同じバージョンのインストーラーを入手してください。
 
 ### よくある質問
