@@ -1,14 +1,32 @@
 # DaimananGit｜代码南途
 
+<p align="center">
+  <img src="docs/brand/logo.png" width="120" alt="DaimananGit" />
+</p>
+
+<p align="center"><b>代码旅途，不再迷路。</b></p>
+
 [简体中文](#zh-cn) · [繁體中文](#zh-tw) · [English](#en) · [Русский](#ru) · [한국어](#ko) · [日本語](#ja)
 
 > 本仓库只发布官方安装包与说明，**不含源代码**。使用许可见 [LICENSE](./LICENSE)。
 
+## 界面一览 / Screenshots
+
+| 工作区 Working Tree | 对比 Compare |
+|:---:|:---:|
+| ![Working Tree](docs/screenshots/01-working-tree.png) | ![Compare](docs/screenshots/02-compare.png) |
+
+| 历史 History | 忽略规则 Ignore |
+|:---:|:---:|
+| ![History](docs/screenshots/03-history.png) | ![Ignore](docs/screenshots/04-ignore.png) |
+
+| 分支 Branches | 本地历史 Local History |
+|:---:|:---:|
+| ![Branches](docs/screenshots/05-branches.png) | ![Local History](docs/screenshots/06-local-history.png) |
+
 <a id="zh-cn"></a>
 
 ## 简体中文
-
-代码旅途，不再迷路。
 
 DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常的提交、拉取和冲突更好懂。
 
@@ -86,8 +104,6 @@ DaimananGit 是桌面 Git 客户端。它帮你看清分支和提交，让日常
 
 ## 繁體中文
 
-程式旅途，不再迷路。
-
 DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常的提交、拉取與衝突更好懂。
 
 簡體中文、繁體中文、English、Русский、한국어、日本語都在同一個程式裡。任選一個安裝包即可，不必按語言分開下載。
@@ -163,8 +179,6 @@ DaimananGit 是桌面 Git 用戶端。它幫你看清分支與提交，讓日常
 <a id="en"></a>
 
 ## English
-
-Navigate your code journey.
 
 DaimananGit is a desktop Git client. It helps you see branches and commits clearly, and makes everyday commits, pulls, and conflicts easier to follow.
 
@@ -242,8 +256,6 @@ After the app opens, click the language name on the right side of the top bar. C
 
 ## Русский
 
-Путь по коду — без блужданий.
-
 DaimananGit — настольный клиент Git. Он показывает ветки и коммиты, а обычные коммиты, получение изменений и конфликты становятся понятнее.
 
 简体中文, 繁體中文, English, Русский, 한국어 и 日本語 уже внутри одной программы. Скачайте любой пакет — отдельной сборки для языка нет.
@@ -320,8 +332,6 @@ DaimananGit — настольный клиент Git. Он показывает
 
 ## 한국어
 
-코드 여정에서 길을 잃지 마세요.
-
 DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을 분명히 보여주고, 평소의 커밋, 가져오기, 충돌을 더 쉽게 따라가게 합니다.
 
 简体中文, 繁體中文, English, Русский, 한국어, 日本語가 같은 프로그램 안에 있습니다. 꾸러미는 하나만 받으면 됩니다. 언어별로 따로 받지 않습니다.
@@ -397,8 +407,6 @@ DaimananGit은 데스크톱 Git 클라이언트입니다. 브랜치와 커밋을
 <a id="ja"></a>
 
 ## 日本語
-
-コードの旅で、迷わない。
 
 DaimananGit はデスクトップの Git クライアントです。ブランチとコミットを見渡し、日々のコミット、取得、衝突をわかりやすくします。
 
